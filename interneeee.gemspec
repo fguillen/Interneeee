@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["fguillen.mail@gmail.com"]
   spec.summary       = "Command tool to check if you have Internet connection"
   spec.description   = "Command tool to check if you have Internet connection"
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/fguillen/Interneeee"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
