@@ -1,24 +1,11 @@
 # Interneeee
 
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'interneeee'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install interneeee
+Command tool to check if you have Internet connection.
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ gem install interneeee
+    $ interneeee
 
 ## Contributing
 
