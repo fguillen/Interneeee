@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    interneeee (0.0.1)
+    interneeee (0.0.3)
       net-ping
 
 GEM
