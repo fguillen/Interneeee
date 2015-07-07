@@ -7,6 +7,10 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
+    metaclass (0.0.4)
+    minitest (5.7.0)
+    mocha (1.1.0)
+      metaclass (~> 0.0.1)
     net-ping (1.7.7)
     rake (10.4.2)
 
@@ -16,4 +20,6 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.6)
   interneeee!
+  minitest
+  mocha
   rake

@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Interneeee::VERSION
   spec.authors       = ["Fernando Guillen"]
   spec.email         = ["fguillen.mail@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = "Command tool to check if you have Internet connection"
+  spec.description   = "Command tool to check if you have Internet connection"
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -22,4 +22,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "minitest"
+  spec.add_development_dependency "mocha"
 end
