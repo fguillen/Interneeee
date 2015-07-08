@@ -7,10 +7,10 @@ module Interneeee
     attr_reader :ping
     attr_reader :sleep_time
 
-    def initialize(loop_active = true, host = "8.8.8.8", sleep_time = 5)
+    def initialize(loop_active = true, host = "8.8.8.8", sleep_time = 2)
       @loop_active = loop_active
       @sleep_time = sleep_time
-      @ping = Net::Ping::External.new(host)
+      @ping = Net::Ping::External.new(host, 7, 2) # host, port, time_out
     end
 
     def run
