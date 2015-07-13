@@ -8,3 +8,5 @@ Command tool to check if you have Internet connection.
 
     $ gem install interneeee
     $ interneeee
+    
+If you use `rbenv` probably you need to execute `rbenv rehash` after install the gem.
